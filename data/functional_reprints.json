@@ -1,0 +1,15 @@
+{
+  "note": "Staré výtlačky s iným znením, ale rovnakým efektom (Handbook § 4.1.3). Bežné preformulovania rieši REWORDINGS v build_data.py, sem patria iba ručne posúdené prípady. Bez 'into' sa karta spája s legálnym výtlačkom v Standarde.",
+  "reprints": [
+    { "name": "Copycat", "prints": ["ex7-83", "ecard1-138", "ex15-73", "hgss1-90", "col1-77"], "into": "sm7-127", "why": "Príklad priamo v Handbooku § 4.1.3." },
+    { "name": "Ultra Ball", "prints": ["bw5-102", "sm1-135"], "why": "Odhodenie 2 kariet je všade podmienka na zahranie a zvyšok efektu je rovnaký." },
+    { "name": "Counter Gain", "prints": ["sm8-170"], "why": "Rovnaká podmienka aj zľava, líši sa len vetná stavba." },
+    { "name": "Lucky Helmet", "prints": ["xy7-77"], "why": "Starší názov Active Spot, efekt je rovnaký." },
+    { "name": "Pokémon Center Lady", "prints": ["xy2-93"], "why": "Lieči 60 a ruší Special Conditions, líši sa len vetná stavba." },
+    { "name": "Repel", "prints": ["sm1-130"], "why": "V oboch súper vymení aktívneho Pokémona a sám vyberá nového." },
+    { "name": "Scoop Up Cyclone", "prints": ["bw10-95"], "why": "Rovnaký efekt, kratšie znenie." },
+    { "name": "Tool Scrapper", "prints": ["bw6-116"], "why": "Rovnaký efekt, kratšie znenie." },
+    { "name": "Switch", "prints": ["base1-95", "base4-123", "ex1-92"], "why": "Vždy výmena aktívneho Pokémona za Pokémona na lavičke." },
+    { "name": "Energy Switch", "prints": ["ecard2-120", "hgss1-91"], "why": "Presun základnej energie medzi vlastnými Pokémonmi, rovnaký efekt." }
+  ]
+}

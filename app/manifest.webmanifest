@@ -1,0 +1,11 @@
+{
+  "name": "BulkDeck",
+  "short_name": "BulkDeck",
+  "description": "Deck z tvojich Pokémon TCG kariet podľa oficiálnych pravidiel.",
+  "lang": "sk",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0e1a22",
+  "theme_color": "#0e1a22",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

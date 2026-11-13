@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BulkDeck</title>
+  <meta name="description" content="Naskenuj svoje Pokémon TCG karty. BulkDeck z nich zloží deck podľa oficiálnych pravidiel, poradí, čo dokúpiť, a odhadne hodnotu zbierky.">
+  <!-- Prototyp: zatial nech ho vyhladavace neindexuju. -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0e1a22">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://assets.tcgdex.net blob: data:; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="4" y="7" width="15" height="21" rx="2.5" transform="rotate(-12 11 17)" fill="#2c7a7b"/>
+        <rect x="12" y="4" width="15" height="21" rx="2.5" transform="rotate(9 19 14)" fill="#f6c744"/>
+      </svg>
+      <span>BulkDeck</span>
+    </div>
+    <div class="format" id="format" role="group" aria-label="Formát hry"></div>
+  </header>
+
+  <main class="layout">
+    <section class="collection" aria-label="Moja zbierka" id="collection"></section>
+    <section class="results" aria-label="Decky" id="results"></section>
+  </main>
+
+  <footer class="foot" id="foot"></footer>
+
+  <dialog class="modal" id="card-dialog"></dialog>
+  <dialog class="modal" id="version-dialog"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

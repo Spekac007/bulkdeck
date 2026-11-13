@@ -1,0 +1,35 @@
+{
+  "source": "https://www.pokemon.com/us/play-pokemon/about/pokemon-tcg-banned-card-list",
+  "checked": "2026-11-05",
+  "note": "Trainer cards are banned by name. Pokemon only in the listed prints and their functional reprints.",
+  "trainers": [
+    "Chip-Chip Ice Axe",
+    "Delinquent",
+    "Forest of Giant Plants",
+    "Ghetsis",
+    "Hex Maniac",
+    "Island Challenge Amulet",
+    "Jessie & James",
+    "Lt. Surge's Strategy",
+    "Lysandre's Trump Card",
+    "Maxie's Hidden Ball Trick",
+    "Puzzle of Time",
+    "Red Card",
+    "Reset Stamp",
+    "Scoop Up Net"
+  ],
+  "pokemon": [
+    { "name": "Archeops", "prints": [["Noble Victories", "67"], ["Dark Explorers", "110"]] },
+    { "name": "Duskull", "prints": [["Cosmic Eclipse", "83"]] },
+    { "name": "Flabébé", "prints": [["Forbidden Light", "83"]] },
+    { "name": "Flapple", "prints": [["Rebel Clash", "22"]] },
+    { "name": "Marshadow", "prints": [["Shining Legends", "45"]] },
+    { "name": "Medicham V", "prints": [["Evolving Skies", "83"]] },
+    { "name": "Milotic", "prints": [["Flashfire", "23"]] },
+    { "name": "Mismagius", "prints": [["Unbroken Bonds", "78"]] },
+    { "name": "Oranguru", "prints": [["Ultra Prism", "114"]] },
+    { "name": "Sableye", "prints": [["Dark Explorers", "62"]] },
+    { "name": "Shaymin-EX", "prints": [["Roaring Skies", "77"]] },
+    { "name": "Unown", "prints": [["Lost Thunder", "90"], ["Lost Thunder", "91"]] }
+  ]
+}
